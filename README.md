@@ -40,9 +40,9 @@ student@327fb651b54a:~/workspace/code/lab4-starter$ tree -L 3
 - `ns3_path` 表示 `ns-3.38` 目录在你的机器上的 **绝对路径** (不是相对路径！！)
 - `test_name` 表示你要进行的测试类型，支持的值有 fct、pcap、cwnd、all
 
-举例而言，`test/test-utils/run_test.sh /home/student/workspace/ns-allinone-3.38 cwnd` 可用于单独测试 Exercise 4 (cwnd)，`test/test-utils/run_test.sh /home/student/workspace/ns-allinone-3.38 all` 可用于测试所有需要测试的三个 Exercise (pcap, cwnd, fct) 。
+举例而言，`test/test-utils/run_test.sh /home/student/workspace/ns-allinone-3.38/ns-3.38 cwnd` 可用于单独测试 Exercise 4 (cwnd)，`test/test-utils/run_test.sh /home/student/workspace/ns-allinone-3.38 all` 可用于测试所有需要测试的三个 Exercise (pcap, cwnd, fct) 。
 
-`run_test.sh`必须被放在原位置下运行，不能被移动到其他位置运行。不过你可以在任意工作目录运行它，比如直接用绝对路径运行 `/home/student/workspace/code/lab4-starter/test/run_test.sh /home/student/workspace/ns-allinone-3.38 all` 就是没问题的。
+`run_test.sh`必须被放在原位置下运行，不能被移动到其他位置运行。不过你可以在任意工作目录运行它，比如直接用绝对路径运行 `/home/student/workspace/code/lab4-starter/test/run_test.sh /home/student/workspace/ns-allinone-3.38/ns-3.38 all` 就是没问题的。
 
 ## 如何提交
 
